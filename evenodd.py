@@ -1,5 +1,5 @@
-a=int(input("enter the value:"))
-if(a%2 == 0):
-	print("even")
+l=raw_input()
+if(l=='a' or l=='e' or l=='i'  or l=='o' or l=='u'):
+	print("vowel")
 else:
-	print("odd")
+	print("consonant")
